@@ -3,8 +3,11 @@
 # Daniel Wilson <dwilson@voleon.net>
 # ver 8.3.2020.1
 
-### Globals
+  
+###e No variant var, exit on error, stop globbing
   set -euf -o pipefail
+
+### Globals
   declare -r strConfigLocation="/etc/ssh/sshd_config"
 
 ### Functions
