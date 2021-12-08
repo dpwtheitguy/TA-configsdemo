@@ -11,13 +11,13 @@
 check-os() {
   # Verify Redhat
   if [[ ! -f /etc/redhat-release ]]; then
-    logger "status=stopped message=\"Bad OS\""
+    logger "status=stopped message=\"Bad OS. Only Redhat supported.\""
     exit 1;
   fi
 
   # Verify root
   if [ "$EUID" -ne 0 ]; then
-    logger "status=stopped message=\"Please run as root\" "
+    logger "status=stopped message=\"Please run as user=root\" "
     exit 1;
   fi
 }
