@@ -4,6 +4,7 @@
 # ver 8.3.2020.1
 
 ### Globals
+  set -euf -o pipefail
   declare -r strConfigLocation="/etc/ssh/sshd_config"
 
 ### Functions
