@@ -21,7 +21,7 @@ Script examples of how you might script in your data
 11.4.2021.1 - dwilson, Initial version for SF User group talk (JIRA-0000) 
 
 ## Credits
-Daniel Wilson dwilson@voleon.com
+Daniel Wilson daniel dot p dot wilson@live dot com
 
 ## License
 None
